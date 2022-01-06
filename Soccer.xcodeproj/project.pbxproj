@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8738AC2786596F0076E057 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8738AB2786596F0076E057 /* ApiService.swift */; };
+		2D8738AE278659B00076E057 /* SoccerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8738AD278659B00076E057 /* SoccerModel.swift */; };
+		2D8738B0278674800076E057 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8738AF278674800076E057 /* Helper.swift */; };
+		2D8738B2278682660076E057 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8738B1278682660076E057 /* ItemRowView.swift */; };
 		2DB0E53C27864FE100C45D66 /* SoccerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0E53B27864FE100C45D66 /* SoccerApp.swift */; };
 		2DB0E53E27864FE100C45D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0E53D27864FE100C45D66 /* ContentView.swift */; };
 		2DB0E54027864FE300C45D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB0E53F27864FE300C45D66 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8738AB2786596F0076E057 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		2D8738AD278659B00076E057 /* SoccerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerModel.swift; sourceTree = "<group>"; };
+		2D8738AF278674800076E057 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../iDine/iDine/Helper.swift; sourceTree = "<group>"; };
+		2D8738B1278682660076E057 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		2DB0E53827864FE100C45D66 /* Soccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB0E53B27864FE100C45D66 /* SoccerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerApp.swift; sourceTree = "<group>"; };
 		2DB0E53D27864FE100C45D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,12 +106,16 @@
 		2DB0E53A27864FE100C45D66 /* Soccer */ = {
 			isa = PBXGroup;
 			children = (
+				2D8738AF278674800076E057 /* Helper.swift */,
 				2DB0E53B27864FE100C45D66 /* SoccerApp.swift */,
 				2DB0E53D27864FE100C45D66 /* ContentView.swift */,
 				2DB0E53F27864FE300C45D66 /* Assets.xcassets */,
 				2DB0E54427864FE300C45D66 /* Persistence.swift */,
 				2DB0E54627864FE300C45D66 /* Soccer.xcdatamodeld */,
 				2DB0E54127864FE300C45D66 /* Preview Content */,
+				2D8738AB2786596F0076E057 /* ApiService.swift */,
+				2D8738AD278659B00076E057 /* SoccerModel.swift */,
+				2D8738B1278682660076E057 /* ItemRowView.swift */,
 			);
 			path = Soccer;
 			sourceTree = "<group>";
@@ -264,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB0E54527864FE300C45D66 /* Persistence.swift in Sources */,
+				2D8738B0278674800076E057 /* Helper.swift in Sources */,
+				2D8738AC2786596F0076E057 /* ApiService.swift in Sources */,
+				2D8738AE278659B00076E057 /* SoccerModel.swift in Sources */,
 				2DB0E53E27864FE100C45D66 /* ContentView.swift in Sources */,
 				2DB0E54827864FE300C45D66 /* Soccer.xcdatamodeld in Sources */,
+				2D8738B2278682660076E057 /* ItemRowView.swift in Sources */,
 				2DB0E53C27864FE100C45D66 /* SoccerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
